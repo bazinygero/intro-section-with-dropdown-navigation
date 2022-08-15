@@ -24,3 +24,62 @@
 .login-nav {
     margin-left: auto;
 }
+
+@media screen and (max-width: 850px) {
+    
+    .header {
+        padding: 20px 15px;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .burger-btn {
+        display: block;
+    }
+
+    .navbar-container, .menu-list {
+        flex-direction: column;
+    }
+
+    .navbar-container {
+        height: 100vh;
+        width: 240px;
+        padding: 25px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -240px;
+        background-color: #fff;
+        z-index: 1;
+        transition: right 0.3s ease-out;
+    }
+
+    .navbar-container.show {
+        right: 0;
+    }
+
+    .nav-links, .login-nav, .menu-item + .menu-item {
+        margin-left: 0;
+    }
+
+    .nav-links, .login-nav {
+        margin-top: 60px;
+    }
+
+    .menu-item + .menu-item {
+        margin-top: 25px;
+    }
+
+    .login-nav {
+        align-items: center;
+    }
+
+    .dropdown-menu {
+        background-color: transparent;
+        box-shadow: none;
+        position: static;
+    }
+}

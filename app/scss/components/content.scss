@@ -19,3 +19,96 @@
 .clients img + img {
     margin-left: 35px;
 }
+
+@media screen and (max-width: 1350px) {
+    .container {
+        margin-left: 5vw;
+    }
+
+    .hero-copy::after {
+        right: 5vw;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .container {
+        margin-left: 20px;
+    }
+
+    .hero-copy::after {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .container {
+        margin-left: 20px;
+    }
+
+    .hero-copy::after {
+        right: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1049px) {
+
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .hero-copy {
+        text-align: center;
+        margin-top: 50vh;
+        max-width: none;
+    }
+
+    .hero-copy::after {
+        content: none;
+    }
+
+    .hero-copy::before {
+        content: '';
+        height: 50vh;
+        width: 100%;
+        background: url('../images/image-hero-mobile.png') no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+    }
+
+    .title {
+        font-size: 2.4rem;
+        padding-top: 5vh;
+    }
+
+    .title, .text {
+        margin-bottom: 25px;
+    }
+
+    .text {
+        max-width: none;
+        margin: 0 15vw 5vh 15vw;
+    }
+
+    .btn.learn-btn {
+        padding: 10px 20px;
+    }
+
+    .clients {
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    .clients img {
+        width: 64px;
+    }
+
+    .clients img + img {
+        margin-left: 25px;
+    }
+
+}
