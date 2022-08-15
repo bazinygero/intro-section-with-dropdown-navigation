@@ -7,7 +7,7 @@
     background: url('../images/image-hero-desktop.png') no-repeat;
     background-size: cover;
     position: absolute;
-    top: 140px;
+    top: 180px;
     right: 10vw;
     bottom: 30vh;
 }
@@ -20,13 +20,23 @@
     margin-left: 35px;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1425px) {
     .container {
         margin-left: 5vw;
     }
 
     .hero-copy::after {
         right: 5vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        margin-left: 20px;
+    }
+
+    .hero-copy::after {
+        right: 20px;
     }
 }
 
@@ -40,18 +50,8 @@
     }
 }
 
-@media screen and (max-width: 1050px) {
-    .container {
-        margin-left: 20px;
-    }
 
-    .hero-copy::after {
-        right: 20px;
-    }
-}
-
-
-@media screen and (max-width: 1049px) {
+@media screen and (max-width: 1124px) {
 
     .container {
         max-width: 100%;
@@ -75,14 +75,14 @@
         background: url('../images/image-hero-mobile.png') no-repeat;
         background-size: cover;
         position: absolute;
-        top: 70px;
+        top: 100px;
         left: 0;
         right: 0;
     }
 
     .title {
         font-size: 2.4rem;
-        padding-top: 5vh;
+        padding-top: 10vh;
     }
 
     .title, .text {

@@ -17,6 +17,10 @@
     color: var(--medium-gray);
 }
 
+.menu-link img {
+    margin-left: 5px;
+}
+
 .menu-link:hover {
     color: var(--almost-black);
 }
@@ -25,7 +29,7 @@
     margin-left: auto;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 925px) {
     
     .header {
         padding: 20px 15px;
