@@ -1,0 +1,26 @@
+@use '../util' as *;
+
+.nav-links {
+    margin-left: 60px;
+}
+
+.menu-list, .dropdown-menu {
+    list-style: none;
+}
+
+.menu-item + .menu-item {
+    margin-left: 40px;
+}
+
+.menu-link, .dropdown-item {
+    text-decoration: none;
+    color: var(--medium-gray);
+}
+
+.menu-link:hover {
+    color: var(--almost-black);
+}
+
+.login-nav {
+    margin-left: auto;
+}

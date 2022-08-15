@@ -1,14 +1,17 @@
 @use '../util' as *;
 
-h1,
-h2,
-h3 {
-	margin-top: 0;
-	line-height: 1.1;
+.title {
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--almost-black);
+    margin-bottom: 60px;
 }
 
-a,
-a:visited,
-a:active {
-	text-decoration: none;
+.text {
+    max-width: 430px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--medium-gray);
+    line-height: 1.6;
+    margin-bottom: 50px;
 }

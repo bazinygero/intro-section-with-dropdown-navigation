@@ -1,0 +1,38 @@
+@use '../util' as *;
+
+.bordered {
+    padding: 10px 20px;
+    border: 2px solid var(--medium-gray);
+    border-radius: 12px;
+}
+
+.bordered:hover {
+    border-color: var(--almost-black);
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.learn-btn {
+    padding: 20px 30px;
+    border-radius: 12px;
+    background-color: var(--almost-black);
+    border: 2px solid var(--almost-black);
+    color: var(--almost-white);
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.learn-btn:hover {
+    background-color: var(--almost-white);
+}
+
+.burger-btn {
+    display: none;
+    position: relative;
+    z-index: 2;
+}

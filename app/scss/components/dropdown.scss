@@ -1,0 +1,36 @@
+@use '../util' as *;
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown.open .dropdown-menu {
+    display: block;
+}
+
+.dropdown.open .dropdown-toggle img {
+    transform: rotateX(180deg);
+}
+
+.dropdown-menu {
+    display: none;
+    width: max-content;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 8px 12px 12px hsl(0, 0%, 93%);
+    position: absolute;
+    top: 40px;
+}
+
+#features {
+    right: 0;
+}
+
+.dropdown-menu li + li {
+    margin-top: 15px;
+}
+
+.dropdown-item img {
+    margin-right: 10px;
+}

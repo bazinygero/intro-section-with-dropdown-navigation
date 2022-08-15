@@ -1,0 +1,21 @@
+@use '../util' as *;
+
+.hero-copy::after {
+    content: '';
+    height: 640px;
+    width: 480px;
+    background: url('../images/image-hero-desktop.png') no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 140px;
+    right: 10vw;
+    bottom: 30vh;
+}
+
+.clients {
+    margin-top: 100px;
+}
+
+.clients img + img {
+    margin-left: 35px;
+}
