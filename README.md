@@ -7,9 +7,9 @@
 - [Live demo]()
 
 ## About
-This is a solution to the Intro section with dropdown navigation challenge from [Frontend Mentor]().
+This is a solution to the Intro section with dropdown navigation challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5).
 
-Your users should be able to:
+Users should be able to:
 
 - View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
 - View the optimal layout for the content depending on their device's screen size
