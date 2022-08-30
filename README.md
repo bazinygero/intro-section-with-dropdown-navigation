@@ -1,6 +1,6 @@
-# E-commerce Product Page
+# Intro Section With Dropdown Navigation
 
-![](./)
+![](./intro-section.png)
 
 ## Links
 
