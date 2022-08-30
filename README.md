@@ -4,7 +4,7 @@
 
 ## Links
 
-- [Live demo]()
+- [Live demo](https://bazinygero.github.io/intro-section-with-dropdown-navigation/)
 
 ## About
 This is a solution to the Intro section with dropdown navigation challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5).
